@@ -1,13 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Part1 from './components/organisms/Part1/Part1'
+import Part2 from './components/organisms/Part2/Part2'
+import Part3 from './components/organisms/Part3/Part3'
 
 function App() {
   
   return (
     <>
-      <h1 className="text-3xl text-blue-600">Hello World</h1>
+      <Part1/>
+      <Part2/>
+      <Part3/>
     </>
   )
 }
