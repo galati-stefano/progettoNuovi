@@ -8,10 +8,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+
+    screens: {
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px',
+    },
     extend: {
-      fontFamily:{
-        mulish : ['"mulish"' , ...defaultTheme.fontFamily.sans],
-        poppins : ['"poppins"' , ...defaultTheme.fontFamily.sans]
+      fontFamily: {
+        poppins: ['Poppins'],
+        mulish: ['Mulish']
+   
       }
     },
   },

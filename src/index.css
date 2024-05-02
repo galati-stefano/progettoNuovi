@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins-Bold"),
+    url('../src/assets/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Poppins_sb";
+    src: local("Poppins-SemiBold"),
+    url('../src/assets/fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Mulish";
+    src: local("Mulish-VariableFont_wght"),
+    url('../src/assets/fonts/Mulish/Mulish-VariableFont_wght.ttf') format('truetype');
+}
